@@ -5,6 +5,7 @@ const blogRoutes= require('./routes/blogRoutes')
 //express app
 const app=express();
 
+
 //connect to mongodb server
 const dbURI="mongodb+srv://UwihanganyeObed:Sun123@cluster0.gvdipjg.mongodb.net/node-tuts?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(dbURI)
